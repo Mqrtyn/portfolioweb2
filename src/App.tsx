@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header.tsx";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFB from "./components/ErrorFB.tsx";
@@ -14,12 +14,14 @@ function App() {
     <>
       <Header></Header>
       <ErrorBoundary FallbackComponent={ErrorFB}>
+      <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/experience" element={<Experience />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      </Router>
       </ErrorBoundary>
     </>
   );
