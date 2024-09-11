@@ -1,0 +1,71 @@
+@media only screen and (min-width: 900px) and (max-width: 1940px){
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000000;
+    color: #D3D3D3;
+}
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/IMG_3596.PNG);
+    background-size: contain;
+    background-position-x: 900px;
+    background-position-y: 8rem;
+    background-repeat: no-repeat;
+    border-radius: 1000px; 
+    /*border-bottom: ;*/
+}
+
+.container{
+    padding: 20px 10%;
+}
+
+.header-text{                   /*text größe etc*/
+    margin-top: 13%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 50px;
+    margin-top: 0%;
+}
+.header-text h1 span{
+    color: #696969;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 932px){
+    #home{
+        width: 100%;
+        height: 90vh;
+        background-image: url(images/IMG_3596.PNG);
+        background-size: contain;
+        background-position-y: 15rem;
+        background-position-x: 10px;
+        background-repeat: no-repeat;
+        border-radius: 1000px; 
+        /*border-bottom: ;*/
+    } /*Hier irgendwie die schrift nach oben bekommen oder bild etwas runter aber nasenbluten*/
+    .container{
+        padding: 20px 10%;
+    }
+    .header-text{                   /*text größe etc*/
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 10%;
+        text-align: left;
+        font-size: 20px;
+    }
+    .header-text h1 {
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 0%;
+        text-align: center;
+        font-size: 20px;
+    }
+}

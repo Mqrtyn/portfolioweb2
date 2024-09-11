@@ -1,0 +1,151 @@
+#contact{
+    padding: 10px 0;
+}
+.contact-left{
+    flex-basis: 50%;
+    position: relative;
+    top: 100px; /* Abstand vom oberen Rand */
+    left: 480px; /* Abstand vom linken Rand */
+    margin-top: 20px 20px;
+    font-size: 20px;
+}
+.contact-left p{
+    margin-top: 40px;
+}
+.contact-left p i{
+    color: #ababab;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #262626;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #262626;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+    background: #262626;
+    font-weight: 900;
+    margin-top: 150px;
+}
+.copyright i{
+    color: #ababab;
+}
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 932px){
+    #contact{
+        padding: 10px 0;
+    }
+    .contact-left{
+        flex-basis: 50%;
+        position: relative;
+        top: 50px; /* Abstand vom oberen Rand */
+        left: 50px; /* Abstand vom linken Rand */
+        margin-top: 20px 20px;
+        font-size: 20px;
+    }
+    .contact-left p{
+        color: #ababab;
+        margin-top: 40px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+    .contact-left p a{
+        color: #ffffff;
+        margin-top: 40px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+    .social-icons{
+        margin-top: 30px;
+    }
+    .social-icons a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-right: 15px;
+        color: #ababab;
+        display: inline-block;
+        transition: transform 0.5s;
+    }
+    .social-icons a:hover{
+        color: #262626;
+        transform: translateY(-5px);
+    }
+    .btn.btn2{
+        display: inline-block;
+        background: #262626;
+    }
+    .contact-right form{
+        width: 100%;
+    }
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #262626;
+        padding: 15px;
+        margin: 15px 0;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+    form .btn2{
+        padding: 14px 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+        padding: 35px 0;
+        background: #262626;
+        font-weight: 900;
+        margin-top: 220px;
+    }
+    .copyright i{
+        color: #ababab;
+    }
+    nav .fa-solid{
+        display: none;
+    }
+}
